@@ -1,0 +1,13 @@
+name: RazerPlugin
+version: '${project.version}'
+main: me.frandma.razerplugin.RazerPlugin
+api-version: 1.19
+authors: [ Frandma ]
+description: Prevents items from being destroyed.
+website: https://github.com/frandma/
+commands:
+  heal:
+    description: Heal yourself or others.
+    permission: razer.heal
+    permission-message: §cYou cannot do that.
+    usage: "§c/heal [player]"
